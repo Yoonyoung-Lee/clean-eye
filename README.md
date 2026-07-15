@@ -23,7 +23,7 @@
 
 ## 어떤 데이터를 사용하나요?
 
-Clean Eye는 NVIDIA의 [Nemotron-Personas-Korea](https://huggingface.co/nvidia/Nemotron-Personas-Korea) 데이터셋을 사용합니다.<br> 
+Clean Eye는 NVIDIA의 [Nemotron-Personas-Korea] 데이터셋을 사용합니다.<br> 
 평가에는 20~60대의 다양한 한국 직장인 페르소나가 참여합니다.
 개발자나 디자이너처럼 화면을 많이 보는 직군보다는 일반적인 회사원(사무원, 관리자, 은행원, HR 등) 관점을 최대한 반영하려고 했습니다.<br> 
 그래서 보통은 **"이 화면을 처음 보는 일반 직장인도 이해할 수 있을까?"** 를 확인하는 용도로 사용하면 좋습니다.
@@ -32,37 +32,16 @@ Clean Eye는 NVIDIA의 [Nemotron-Personas-Korea](https://huggingface.co/nvidia/N
 
 
 
-## 결과는 이렇게 나옵니다.
 
-스크린샷을 입력하면 약 5명의 페르소나가 각각 Think-Aloud 방식으로 반응합니다.
+### 예시. AI 자동 요약
+<img width="454" height="379" alt="AI 자동 요약" src="https://github.com/user-attachments/assets/13ba9273-9f86-418c-a4a1-cbf4f3a49153" /> <br>
+<br> 위의 예시 화면에 대한 페르소나의 평가는 아래와 같습니다.<br> 
 
-결과에는 다음을 함께 정리해 줍니다.
-- 페르소나별 반응
-- 반복해서 나타난 혼란 포인트
-- 우선순위가 높은 개선 포인트
+<img width="512" height="551" alt="페르소나 평가" src="https://github.com/user-attachments/assets/7f1fd695-9202-4ee7-86b1-7dc8421790fa" />
+
+<img width="511" height="503" alt="종합 의견" src="https://github.com/user-attachments/assets/621eeecc-0154-47e1-a333-ed5d3f4277c4" />
 
 
-
-## 예시
-
-### 📊 AI 자동 요약
-
-**전문가**: "AI가 핵심을 잘 요약했다"  
-**일반인**: "이 요약이 맞나? 내가 뭘 해야 하는 거야?"
-
-![AI 자동 요약 보고서 화면](./images/ai-summary-example.svg)
-
----
-
-### 🗓️ 회사 휴가 신청 시스템
-
-**전문가**: "정보 구조 좋고, 버튼 배치 논리적이네"  
-**일반인**: "근데... 휴가를 신청하려면 어디를 누르는 거야?"
-
-![휴가 신청 시스템 화면](./images/vacation-system-example.svg)
-
-<br> 
-<br> 
 
 ## 설치
 1. `clean-eye` 폴더를 Claude Code의 `~/.claude/skills`에 복사합니다.
