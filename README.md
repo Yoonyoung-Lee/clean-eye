@@ -44,17 +44,22 @@ Clean Eye는 NVIDIA의 [Nemotron-Personas-Korea](https://huggingface.co/nvidia/N
 
 
 ## 예시
-### AI 자동 요약
 
-전문가: "AI가 핵심을 잘 요약했다"  
-일반인: "이 요약이 맞나? 내가 뭘 해야 하는 거야?"
-→ [SHOWCASE.md](./SHOWCASE.md)에서 실제 예시 보기
+### 📊 AI 자동 요약
 
-### 회사 휴가 신청 시스템
+**전문가**: "AI가 핵심을 잘 요약했다"  
+**일반인**: "이 요약이 맞나? 내가 뭘 해야 하는 거야?"
 
-전문가: "정보 구조 좋고, 버튼 배치 논리적이네"  
-일반인: "근데... 휴가를 신청하려면 어디를 누르는 거야?"
-→ [SHOWCASE.md](./SHOWCASE.md)에서 실제 예시 보기
+![AI 자동 요약 보고서 화면](./images/ai-summary-example.svg)
+
+---
+
+### 🗓️ 회사 휴가 신청 시스템
+
+**전문가**: "정보 구조 좋고, 버튼 배치 논리적이네"  
+**일반인**: "근데... 휴가를 신청하려면 어디를 누르는 거야?"
+
+![휴가 신청 시스템 화면](./images/vacation-system-example.svg)
 
 <br> 
 <br> 
