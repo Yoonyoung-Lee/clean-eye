@@ -1,0 +1,11 @@
+{
+  "name": "clean-eye",
+  "description": "한국 직장인 페르소나가 화면을 처음 보는 사람처럼 think-aloud 방식으로 평가하는 UX 리뷰 도구",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yoonyoung-Lee",
+    "url": "https://github.com/Yoonyoung-Lee"
+  },
+  "homepage": "https://github.com/Yoonyoung-Lee/clean-eye",
+  "license": "CC-BY-4.0"
+}

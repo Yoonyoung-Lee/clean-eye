@@ -44,9 +44,17 @@
 
 
 ## 설치
-1. `clean-eye` 폴더를 Claude Code의 `~/.claude/skills`에 복사합니다.
-2. Claude Code를 다시 실행합니다.
-3. `/clean-eye` 명령을 사용할 수 있습니다.
+
+Claude Code에서 아래 두 명령을 실행합니다:
+
+```
+/plugin marketplace add Yoonyoung-Lee/clean-eye
+/plugin install clean-eye@clean-eye
+```
+
+설치 후 `/clean-eye` 명령을 사용할 수 있습니다.
+
+업데이트는 `/plugin marketplace update clean-eye`로 받을 수 있습니다.
 <br> 
 <br> 
 
