@@ -1,0 +1,15 @@
+{
+  "name": "clean-eye",
+  "description": "Clean Eye — 한국 직장인 페르소나 기반 화면 이해도 평가 스킬 마켓플레이스",
+  "owner": {
+    "name": "Yoonyoung-Lee",
+    "url": "https://github.com/Yoonyoung-Lee"
+  },
+  "plugins": [
+    {
+      "name": "clean-eye",
+      "source": "./",
+      "description": "한국 직장인 페르소나가 화면을 처음 보는 사람처럼 think-aloud 방식으로 평가하는 UX 리뷰 도구"
+    }
+  ]
+}
